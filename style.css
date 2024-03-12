@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Red+Hat+Display:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(223,232,255,255);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.container{
+    margin: 0px 25px;
+    /* width: 90%; */
+    /* height: 85%; */
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.text-content{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Red Hat Display',sans-serif;
+}
+.hero{
+    width: 100%;
+}
+.info{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 15px 0px;
+}
+.sub-info{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 1rem;
+    line-height: 1.7em;
+    color:hsl(224, 23%, 55%);
+}
+.plan{
+    background-color:hsl(225, 100%, 94%); 
+    padding: 10px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.plan-left{
+    display: flex;
+}
+.cost{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.cost p{
+    color: hsl(224, 23%, 55%);
+}
+.plan-right{
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+.plan-right a:hover{
+     text-decoration: none;
+     color: hsl(245, 75%, 52%);
+     cursor: pointer;  
+}
+.a-payment {
+    color: #ffff;
+    padding: 15px;
+    background-color:hsl(245, 75%, 52%) ; 
+    margin: 5px 10px;
+    border-radius: 10px; 
+}
+.a-payment a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px; 
+}
+.a-payment:hover{
+    background-color: hsl(245, 35%, 57%);
+    color: black;   
+}
+.a-cancel{
+    padding: 10px;
+}
+.a-cancel a{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+    font-size: 1.1rem;
+    font-weight: bold; 
+} 
+.a-cancel a:hover{
+    color: hsl(223, 47%, 23%);
+}
+ .links{
+    margin-top: 5px;
+} 
+
+@media (min-width:500px){
+    .container{
+        width: 400px;
+        box-shadow: 0px 10px 5px rgba(0,0,0,0.1)
+    }
+
+}
